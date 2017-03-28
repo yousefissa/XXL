@@ -11,7 +11,7 @@ def main(limit):
             'action':'media_poll_vote',
             'poll_id': 9701059,
             'post_id':232,
-            'answer_id':'44359115'
+            'answer_id':44359115
         }
         resp = requests.post(url, data=payload, headers=headers)
         print('{}/{} votes.'.format(i, limit))
